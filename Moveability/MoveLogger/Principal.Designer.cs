@@ -1,4 +1,50 @@
-﻿namespace Moveability
+﻿/*M///////////////////////////////////////////////////////////////////////////////////////
+//
+//  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
+//
+//  By downloading, copying, installing or using the software you agree to this license.
+//  If you do not agree to this license, do not download, install,
+//  copy or use the software.
+//
+//
+//                            BioSCADA® License Agreement
+//                For Open Source Human SCADA Library  
+//
+// Copyright (C) 2011-2014, Diego Schmaedech for this and Many Others Developers around the worlds for all, all rights reserved. 
+//
+//							For Open Source Human SCADA aplications
+//
+// Copyright (C) 2011-2014, Prof. Dr. Emílio Takase, Laboratório de Educação Cerebral, all rights reserved.
+//
+// Third party copyrights are property of their respective owners.
+// Third party copyrights are property of their respective owners.
+//
+// Redistribution and use in source and binary forms, with or without modification,
+// are permitted provided that the following conditions are met:
+//
+//   * Redistribution's of source code must retain the above copyright notice,
+//     this list of conditions and the following disclaimer.
+//
+//   * Redistribution's in binary form must reproduce the above copyright notice,
+//     this list of conditions and the following disclaimer in the documentation
+//     and/or other materials provided with the distribution.
+//
+//   * The name of the copyright holders may not be used to endorse or promote products
+//     derived from this software without specific prior written permission.
+//
+// This software is provided by the copyright holders and contributors "as is" and
+// any express or implied warranties, including, but not limited to, the implied
+// warranties of merchantability and fitness for a particular purpose are disclaimed.
+// In no event shall the Intel Corporation or contributors be liable for any direct,
+// indirect, incidental, special, exemplary, or consequential damages
+// (including, but not limited to, procurement of substitute goods or services;
+// loss of use, data, or profits; or business interruption) however caused
+// and on any theory of liability, whether in contract, strict liability,
+// or tort (including negligence or otherwise) arising in any way out of
+// the use of this software, even if advised of the possibility of such damage.
+//
+//M*/
+namespace Moveability
 {
     partial class Principal
     {
@@ -48,17 +94,17 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.pCenter = new System.Windows.Forms.Panel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.mouseKeyEventProvider1 = new MouseKeyboardActivityMonitor.Controls.MouseKeyEventProvider();
             this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelMousePosition
@@ -66,7 +112,7 @@
             this.labelMousePosition.AutoSize = true;
             this.labelMousePosition.BackColor = System.Drawing.Color.Transparent;
             this.labelMousePosition.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelMousePosition.Font = new System.Drawing.Font("Myriad Web Pro", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMousePosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMousePosition.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(150)))), ((int)(((byte)(95)))));
             this.labelMousePosition.Location = new System.Drawing.Point(3, 0);
             this.labelMousePosition.Name = "labelMousePosition";
@@ -81,7 +127,7 @@
             this.lblClock.AutoSize = true;
             this.lblClock.BackColor = System.Drawing.Color.Transparent;
             this.lblClock.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblClock.Font = new System.Drawing.Font("Myriad Web Pro", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(150)))), ((int)(((byte)(95)))));
             this.lblClock.Location = new System.Drawing.Point(206, 0);
             this.lblClock.Name = "lblClock";
@@ -100,7 +146,7 @@
             this.btnPlay.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnPlay.FlatAppearance.BorderSize = 0;
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlay.Font = new System.Drawing.Font("Myriad Web Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlay.ForeColor = System.Drawing.Color.Transparent;
             this.btnPlay.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPlay.Location = new System.Drawing.Point(205, 3);
@@ -121,9 +167,9 @@
             this.btnHeatmap.FlatAppearance.BorderSize = 0;
             this.btnHeatmap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHeatmap.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHeatmap.Location = new System.Drawing.Point(185, 3);
+            this.btnHeatmap.Location = new System.Drawing.Point(276, 3);
             this.btnHeatmap.Name = "btnHeatmap";
-            this.btnHeatmap.Size = new System.Drawing.Size(85, 71);
+            this.btnHeatmap.Size = new System.Drawing.Size(86, 71);
             this.btnHeatmap.TabIndex = 5;
             this.toolTip1.SetToolTip(this.btnHeatmap, "mostrar heatmap do arquivo salvo");
             this.btnHeatmap.UseVisualStyleBackColor = false;
@@ -138,7 +184,7 @@
             this.btnNEW.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnNEW.FlatAppearance.BorderSize = 0;
             this.btnNEW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNEW.Font = new System.Drawing.Font("Myriad Web Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNEW.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNEW.ForeColor = System.Drawing.Color.Transparent;
             this.btnNEW.Location = new System.Drawing.Point(3, 3);
             this.btnNEW.Name = "btnNEW";
@@ -157,7 +203,7 @@
             this.btSAVE.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btSAVE.FlatAppearance.BorderSize = 0;
             this.btSAVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btSAVE.Font = new System.Drawing.Font("Myriad Web Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSAVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSAVE.ForeColor = System.Drawing.Color.Transparent;
             this.btSAVE.Location = new System.Drawing.Point(94, 3);
             this.btSAVE.Name = "btSAVE";
@@ -177,9 +223,9 @@
             this.btnTable.FlatAppearance.BorderSize = 0;
             this.btnTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTable.ForeColor = System.Drawing.Color.Transparent;
-            this.btnTable.Location = new System.Drawing.Point(276, 3);
+            this.btnTable.Location = new System.Drawing.Point(185, 3);
             this.btnTable.Name = "btnTable";
-            this.btnTable.Size = new System.Drawing.Size(86, 71);
+            this.btnTable.Size = new System.Drawing.Size(85, 71);
             this.btnTable.TabIndex = 4;
             this.toolTip1.SetToolTip(this.btnTable, "mostrar tabela do arquivo salvo");
             this.btnTable.UseVisualStyleBackColor = false;
@@ -194,7 +240,7 @@
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Myriad Web Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.Location = new System.Drawing.Point(104, 3);
@@ -214,7 +260,7 @@
             this.btnRec.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnRec.FlatAppearance.BorderSize = 0;
             this.btnRec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRec.Font = new System.Drawing.Font("Myriad Web Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRec.ForeColor = System.Drawing.Color.Transparent;
             this.btnRec.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRec.Location = new System.Drawing.Point(306, 3);
@@ -234,7 +280,7 @@
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Myriad Web Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Transparent;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.Location = new System.Drawing.Point(3, 3);
@@ -276,41 +322,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(784, 562);
             this.tableLayoutPanel1.TabIndex = 14;
             // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 4;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.Controls.Add(this.button3, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.btnRec, 3, 0);
-            this.tableLayoutPanel4.Controls.Add(this.button1, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.btnPlay, 2, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(374, 495);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(407, 64);
-            this.tableLayoutPanel4.TabIndex = 0;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.labelMousePosition, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.lblClock, 1, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(374, 3);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(407, 77);
-            this.tableLayoutPanel2.TabIndex = 13;
-            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 4;
@@ -330,6 +341,41 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(365, 77);
             this.tableLayoutPanel3.TabIndex = 4;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Controls.Add(this.labelMousePosition, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.lblClock, 1, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(374, 3);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(407, 77);
+            this.tableLayoutPanel2.TabIndex = 13;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 4;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.Controls.Add(this.button3, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.btnRec, 3, 0);
+            this.tableLayoutPanel4.Controls.Add(this.button1, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.btnPlay, 2, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(374, 495);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(407, 64);
+            this.tableLayoutPanel4.TabIndex = 0;
             // 
             // pCenter
             // 
@@ -373,10 +419,10 @@
             this.Text = "Mouseability";
             this.Resize += new System.EventHandler(this.Principal_Resize);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
