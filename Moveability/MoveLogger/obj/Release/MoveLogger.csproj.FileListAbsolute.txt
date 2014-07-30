@@ -1,0 +1,16 @@
+I:\visualstudio\MoveLogger\MoveLogger\bin\Release\MoveLogger.exe.config
+I:\visualstudio\MoveLogger\MoveLogger\bin\Release\MoveLogger.exe.manifest
+I:\visualstudio\MoveLogger\MoveLogger\bin\Release\MoveLogger.application
+I:\visualstudio\MoveLogger\MoveLogger\bin\Release\MoveLogger.exe
+I:\visualstudio\MoveLogger\MoveLogger\bin\Release\MoveLogger.pdb
+I:\visualstudio\MoveLogger\MoveLogger\bin\Release\ActivityMonitor.dll
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.csprojResolveAssemblyReference.cache
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.Heatmap.resources
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.Principal.resources
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.Properties.Resources.resources
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.Table.resources
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.csproj.GenerateResource.Cache
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.exe.manifest
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.application
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.exe
+I:\visualstudio\MoveLogger\MoveLogger\obj\Release\MoveLogger.pdb

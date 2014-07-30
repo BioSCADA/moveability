@@ -1,0 +1,4 @@
+I:\visualstudio\MoveLogger\MouseKeyboardActivityMonitor\bin\Release\MouseKeyboardActivityMonitor.dll
+I:\visualstudio\MoveLogger\MouseKeyboardActivityMonitor\bin\Release\MouseKeyboardActivityMonitor.xml
+I:\visualstudio\MoveLogger\MouseKeyboardActivityMonitor\obj\Release\MouseKeyboardActivityMonitor.dll
+I:\visualstudio\MoveLogger\MouseKeyboardActivityMonitor\obj\Release\MouseKeyboardActivityMonitor.csprojResolveAssemblyReference.cache

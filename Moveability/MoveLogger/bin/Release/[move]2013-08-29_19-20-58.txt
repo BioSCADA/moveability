@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Samples xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.educacaocerebral.org">
+  <Sample>
+    <Timestamp>2013-08-29 19:20:58.270</Timestamp>
+    <Type>NEW_Click</Type>
+    <SubType>NEW_Click</SubType>
+    <X>301</X>
+    <Y>60</Y>
+  </Sample>
+</Samples>
